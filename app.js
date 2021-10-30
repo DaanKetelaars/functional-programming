@@ -1,26 +1,10 @@
 // Call json with an async import
 // Asnyc is more usable when working with json, more info here: https://github.com/tc39/proposal-json-modules
-// const { default: jsonData } = await import("./data.json", {
-//   assert: {
-//     type: "json",
-//   },
-// });
-
-// Option to import data via terminal for a quicker view of what's happening with your data
-const jsonData = require("./data.json");
-// const axios = require("axios").default;
-
-// async function importData() {
-//   try {
-//     const data = await "./data.json";
-//     console.log(data);
-//     return data;
-//   } catch {
-//     console.log(error);
-//   }
-// }
-
-// Clean data before using it
+const { default: jsonData } = await import("./data.json", {
+  assert: {
+    type: "json",
+  },
+});
 
 // Loop through dataset and find answers of specific question
 let DataSet = jsonData.map((jsonData) => {
@@ -53,14 +37,29 @@ let StripData = DataSet.map((jsonData) => {
     return "Geen antwoord";
   }
 });
-console.log(StripData);
+// console.log(StripData);
 
-const occurrences = StripData.reduce(function (acc, curr) {
+let occurrences = StripData.reduce(function (acc, curr) {
   return acc[curr] ? ++acc[curr] : (acc[curr] = 1), acc;
 }, {});
 
-console.log(occurrences);
+let newArr = [];
+let ShowData = JSON.stringify(occurrences);
+let ParseData = JSON.parse(ShowData);
+// console.log(ParseData);
 
-const app = document.getElementById("app");
+let htmlString = [];
+htmlString.push(Object.entries(ParseData));
+console.log(htmlString);
+// let i = htmlString.push(Object.entries(ParseData));
+// for (let i in ParseData) {
+//   htmlString.push(ParseData[i]);
+// }
 
-app.innerHTML += occurrences;
+// for (let i = 0; i < ParseData.length; i++) {
+//   if (ParseData[i]) {
+//     htmlString.push(ParseData);
+//   }
+// }
+
+let app = (document.getElementById("app").innerHTML = htmlString);

@@ -40,6 +40,10 @@ npm start
 
 - [dotenve](https://www.npmjs.com/package/dotenv)
 - [axios](https://www.npmjs.com/package/axios)
+- [git](https://git-scm.com/)
+- [json](https://www.json.org/json-en.html)
+- [node](https://nodejs.org/en/)
+
 
 ## Visuals
 
@@ -50,7 +54,8 @@ These are the current visuals
 Of course all files are important but you should at least have a look at these files if you are interested in this repo.
 Viewing these files will give you an idea of how this feature is built.
 
-- [app.ejs](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_api/app.js) 
+- [app.js](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_api/app.js) 
+- [app.js](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_start/app.js) 
 - [package.json](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_api/package.json) 
 
 ## Meta

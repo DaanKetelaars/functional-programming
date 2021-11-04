@@ -1,6 +1,9 @@
 ## Functional programming
 
+Shields that represent my project - They change over time. (https://shields.io/)
+
 ## Description
+Full on installion for my Functional Programming course of the information design tech track at Communication & Multimedia Design.
 
 ## Table of Contents
 

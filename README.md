@@ -54,8 +54,8 @@ These are the current visuals
 Of course all files are important but you should at least have a look at these files if you are interested in this repo.
 Viewing these files will give you an idea of how this feature is built.
 
-- [app.js](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_api/app.js) 
-- [app.js](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_start/app.js) 
+- [app.js - fp_start](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_start/app.js) 
+- [app.js fp_api](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_api/app.js) 
 - [package.json](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_api/package.json) 
 
 ## Meta

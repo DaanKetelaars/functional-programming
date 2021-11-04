@@ -1,13 +1,30 @@
 // imports
 const axios = require("axios").default;
-const api = require("./modules/api");
+require("dotenv").config();
 
-async function getUser() {
-    await axios(api.url)
-        .then(function (res) {
-            let getData = res.data.topartists.artist;
-            let showArtists = getData.map((data) => data);
-            console.log(showArtists);
-        });
+
+
+let artists = [];
+// async function getApi() {
+//     await axios(process.env.API_URL)
+//     try {
+//         (function (res) {
+//             let getData = res.data.topartists.artist;
+//             let showArtists = getData.map((data) => data);
+//             showArtists.forEach(artist => {
+//                 let listeners = artist.listeners;
+//                 cleanData(listeners);
+//                 console.log(listeners);
+//             });
+//         });
+//     } catch (err) {
+//         console.log(err);
+//     }
+// }
+
+function cleanData(listeners) {
+    console.log(Math.abs(Number(listeners)) >= 1.0e+6);
 }
-getUser();
+
+
+getApi();

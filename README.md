@@ -41,7 +41,7 @@ npm start
 
 ## Used Tools
 
-- [dotenve](https://www.npmjs.com/package/dotenv)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 - [axios](https://www.npmjs.com/package/axios)
 - [git](https://git-scm.com/)
 - [json](https://www.json.org/json-en.html)

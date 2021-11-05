@@ -12,9 +12,7 @@ Full on installion for my Functional Programming course of the information desig
 ## Table of Contents
 
 - [Install](#install)
-- [Features](#features)
 - [Used Tools](#used-tools)
-- [Visuals](#visuals)
 - [!important files](#mportant-files)
 - [Meta](#meta)
 - [License](#license)
@@ -47,10 +45,6 @@ npm start
 - [json](https://www.json.org/json-en.html)
 - [node](https://nodejs.org/en/)
 
-
-## Visuals
-
-These are the current visuals
 
 ## !mportant files
 

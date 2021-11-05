@@ -1,13 +1,18 @@
 ## Functional programming
 
+![example workflow](https://img.shields.io/github/languages/count/DaanKetelaars/functional-programming?style=flat-square)
+![example workflow](https://img.shields.io/github/last-commit/DaanKetelaars/functional-programming?style=flat-square)
+![example workflow](https://img.shields.io/github/repo-size/DaanKetelaars/functional-programming?style=flat-square)
+
+Shields that represent my project - They change over time. (https://shields.io/)
+
 ## Description
+Full on installion for my Functional Programming course of the information design tech track at Communication & Multimedia Design.
 
 ## Table of Contents
 
 - [Install](#install)
-- [Features](#features)
 - [Used Tools](#used-tools)
-- [Visuals](#visuals)
 - [!important files](#mportant-files)
 - [Meta](#meta)
 - [License](#license)
@@ -32,30 +37,22 @@ Start the Server
 npm start
 ```
 
-## Features
-
-- 
-
 ## Used Tools
 
-- [dotenve](https://www.npmjs.com/package/dotenv)
+- [dotenv](https://www.npmjs.com/package/dotenv)
 - [axios](https://www.npmjs.com/package/axios)
 - [git](https://git-scm.com/)
 - [json](https://www.json.org/json-en.html)
 - [node](https://nodejs.org/en/)
 
 
-## Visuals
-
-These are the current visuals
-
 ## !mportant files
 
 Of course all files are important but you should at least have a look at these files if you are interested in this repo.
 Viewing these files will give you an idea of how this feature is built.
 
-- [app.js](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_api/app.js) 
-- [app.js](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_start/app.js) 
+- [app.js - fp_start](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_start/app.js) 
+- [app.js fp_api](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_api/app.js) 
 - [package.json](https://github.com/DaanKetelaars/functional-programming/blob/master/fp_api/package.json) 
 
 ## Meta

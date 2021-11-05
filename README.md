@@ -39,10 +39,6 @@ Start the Server
 npm start
 ```
 
-## Features
-
-- 
-
 ## Used Tools
 
 - [dotenve](https://www.npmjs.com/package/dotenv)

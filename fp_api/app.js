@@ -4,7 +4,7 @@ require("dotenv").config();
 
 // async await function om de data op te roepen en te filteren
 async function getApi() {
-    await axios(process.env.API_KEY)
+    await axios(process.env.API_KE)
         .then(function (res) {
             let getData = res.data.topartists.artist;
             let showArtists = getData.map((data) => data);
